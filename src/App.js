@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Frontpage } from "./Pages/Frontpage";
 
 function App() {
   return (
     <div className="App">
-      <h1>frontpage</h1>
+      <Frontpage />
     </div>
   );
 }
