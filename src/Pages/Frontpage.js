@@ -12,7 +12,7 @@ export const Frontpage = () => {
       <StyledDiv>
         <StyledImg src={qr} />
         <StyledDiv innerDiv>
-          <StyledH1>Scan the QR code to visit my portfolio</StyledH1>
+          <StyledH1>I won't advertise</StyledH1>
           <p>
             The original text said something about scanning the QR code to visit
             their site so you could do their challenges but as the Joker said if
