@@ -10,6 +10,17 @@ export const StyledDiv = styled.div`
   @media (max-width: 811px) {
     width: 90%;
   }
+  ${(props) => {
+    if (props.innerDiv)
+      return `
+    box-shadow: none;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    @media (max-width: 811px) {
+        width: 70%;
+    }`;
+  }}
 `;
 
 export const StyledImg = styled.img`
