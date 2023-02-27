@@ -4,6 +4,7 @@ import {
   StyledImg,
   StyledSection,
 } from "../Components/StyledComponents";
+
 import qr from "../Images/frame.png";
 
 export const Frontpage = () => {
